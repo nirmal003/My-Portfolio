@@ -261,7 +261,6 @@ html {
   border-radius: 30% 50%;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
   background: linear-gradient(rgb(185, 10, 234), rgb(15, 139, 235));
-
   animation: animate3 ease-in-out 2s infinite;
 }
 
