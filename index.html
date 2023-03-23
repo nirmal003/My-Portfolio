@@ -381,6 +381,7 @@
           <div class="projects">
             <div class="project">
               <img
+                onclick="goStackoverflowApp()"
                 data-aos="fade-up"
                 data-aos-delay="500"
                 class="projectImg"
@@ -402,6 +403,7 @@
             </div>
             <div class="project">
               <img
+                onclick="goMovieApp()"
                 data-aos="fade-up"
                 data-aos-delay="750"
                 class="projectImg"
@@ -420,6 +422,7 @@
             </div>
             <div class="project">
               <img
+                onclick="goWeatherApp()"
                 data-aos="fade-up"
                 data-aos-delay="900"
                 class="projectImg"
@@ -441,6 +444,7 @@
             </div>
             <div class="project">
               <img
+                onclick="goCrudApp()"
                 data-aos="fade-up"
                 data-aos-delay="1150"
                 class="projectImg"
@@ -544,6 +548,19 @@
           top: 0,
           behavior: "smooth",
         });
+      }
+
+      function goStackoverflowApp() {
+        window.open("https://stack-overflow-clone-peach.vercel.app");
+      }
+      function goMovieApp() {
+        window.open("https://movie-app-omega-dun.vercel.app");
+      }
+      function goWeatherApp() {
+        window.open("https://weather-app-iota-lime.vercel.app");
+      }
+      function goCrudApp() {
+        window.open("https://crud-two-theta.vercel.app");
       }
 
       function whatsApp() {
