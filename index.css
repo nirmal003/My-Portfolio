@@ -282,7 +282,7 @@ html {
   position: relative;
   z-index: 1;
   width: 100%;
-  /* mix-blend-mode: multiply; */
+  border-radius: 50%;
   object-fit: cover;
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
 }
@@ -835,6 +835,7 @@ html {
 .project {
   width: 350px;
   margin: 10px 10px;
+  border: 1px solid gray;
 }
 
 .project p {
@@ -843,6 +844,25 @@ html {
   color: #fff;
 }
 
+.prolink {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 6px;
+  margin: 0 130px 10px;
+  background-color: #1808f3;
+}
+.prolink:hover {
+  color: #000;
+  font-weight: 700;
+  background: rgb(12, 240, 69);
+}
 .projectImg {
   width: 320px;
   height: 240px;
