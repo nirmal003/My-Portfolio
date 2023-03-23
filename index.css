@@ -846,9 +846,8 @@ html {
 
 .prolink {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
@@ -857,6 +856,7 @@ html {
   padding: 6px;
   margin: 0 130px 10px;
   background-color: #1808f3;
+  cursor: pointer;
 }
 .prolink:hover {
   color: #000;
