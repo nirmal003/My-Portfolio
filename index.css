@@ -882,6 +882,19 @@ html {
 
 /* media query start here  */
 
+@media (max-width: 520px) {
+  .sec2__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 412px) {
   .sec1__menuIcon {
     display: inline-block;
@@ -918,17 +931,6 @@ html {
     width: 37rem;
     /* background: red; */
     margin-top: 5rem;
-  }
-
-  .sec2__container {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 0 2rem;
-    flex-direction: column;
   }
 
   .sec2__heading h2 {
