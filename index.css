@@ -664,7 +664,7 @@ html {
   position: relative;
   min-height: 70vh;
   width: 100%;
-  background: radial-gradient(#3e4d98a9, #9fd4e4);
+  background: radial-gradient(#1c38c8a9, #397386);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -834,6 +834,12 @@ html {
 .project {
   width: 350px;
   margin: 10px 10px;
+}
+
+.project p {
+  margin: 10px 10px;
+  font-size: 15px;
+  color: #fff;
 }
 
 .projectImg {
