@@ -664,7 +664,7 @@ html {
   position: relative;
   min-height: 70vh;
   width: 100%;
-  background: radial-gradient(#333, #000);
+  background: radial-gradient(#3e4d98a9, #9fd4e4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -675,7 +675,7 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   padding: 2rem;
   flex-wrap: wrap;
 }
@@ -782,9 +782,17 @@ html {
   color: #fff;
 }
 
+.prohead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
 .sec4__box3 h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
   border-bottom: 0.2rem solid #ff7d7d;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
@@ -815,7 +823,29 @@ html {
   font-size: 1.2rem;
 }
 
-.sec4__box3 form button {
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project {
+  width: 350px;
+  margin: 10px 10px;
+}
+
+.projectImg {
+  width: 320px;
+  height: 240px;
+  padding: 0;
+  margin: 10px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.sec4__box3 button {
   border: none;
   background: none;
   outline: none;
@@ -829,7 +859,7 @@ html {
   margin-bottom: 4rem;
 }
 
-.sec4__box3 form button:hover {
+.sec4__box3 button:hover {
   color: #000;
   font-weight: 700;
   font-size: 1.6rem;
