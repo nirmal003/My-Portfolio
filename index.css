@@ -870,6 +870,7 @@ html {
   margin: 10px;
   object-fit: cover;
   object-position: left;
+  cursor: pointer;
 }
 
 .contact {
