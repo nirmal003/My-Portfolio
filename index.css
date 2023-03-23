@@ -835,7 +835,7 @@ html {
 .project {
   width: 350px;
   margin: 10px 10px;
-  border: 1px solid gray;
+  border: 0.1px solid gray;
 }
 
 .project p {
