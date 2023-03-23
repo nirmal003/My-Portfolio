@@ -348,6 +348,7 @@ html {
   display: flex;
   overflow: hidden;
   flex-direction: column;
+  background: radial-gradient(rgb(102, 155, 216), rgb(227, 209, 241));
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 0.2rem solid rgb(218, 218, 218);
@@ -881,7 +882,6 @@ html {
 }
 
 /* media query start here  */
-
 @media (max-width: 520px) {
   .sec2__container {
     position: relative;
