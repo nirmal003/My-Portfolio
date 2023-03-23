@@ -77,7 +77,9 @@
               </h1>
             </div>
             <div class="sec1__contentHider">
-              <h1 data-aos="fade-left" data-aos-delay="1050">Web Designer</h1>
+              <h1 data-aos="fade-left" data-aos-delay="1050">
+                Frontend Developer
+              </h1>
             </div>
           </div>
         </div>
@@ -125,12 +127,12 @@
         </div>
         <div class="sec2__aboutme2" data-aos="fade-up" data-aos-delay="1000">
           <p>
-            This is Nirmal from Chennai.I have completed my
+            This is Nirmal from Bengalore.I have completed my
             <b>Bachelor's of Engineering</b> with <b>70%</b> from Sasurie
             Academy of Engineering <b>(Anna University)</b> Coimbatore in
             2017.and also complete <b>Frontend Developer</b> training course in
             <b>Besant Technology</b>. <br /><br />Currently I'm looking for a
-            job in <b>Frontend developer</b> role and willing to Learn new
+            job in <b>React js developer</b> role and willing to Learn new
             technologys.
           </p>
         </div>
@@ -231,7 +233,7 @@
                 <h2>80<span>%</span></h2>
               </div>
             </div>
-            <h2 class="sec3__text">Redux</h2>
+            <h2 class="sec3__text">Redux & Toolkit</h2>
           </div>
         </div>
         <div class="sec3__card" data-aos="fade-up" data-aos-delay="2000">
@@ -266,7 +268,7 @@
                 ></circle>
               </svg>
               <div class="number">
-                <h2>70<span>%</span></h2>
+                <h2>40<span>%</span></h2>
               </div>
             </div>
             <h2 class="sec3__text">Node JS</h2>
@@ -285,7 +287,7 @@
                 ></circle>
               </svg>
               <div class="number">
-                <h2>70<span>%</span></h2>
+                <h2>40<span>%</span></h2>
               </div>
             </div>
             <h2 class="sec3__text">MangoDB</h2>
@@ -334,7 +336,7 @@
               </li>
 
               <li>
-                <a href="https://www.linkedin.com/in/nirmal-raj-3720761b1"
+                <a href="https://www.linkedin.com/in/nirmal-raj003"
                   ><i class="fab fa-linkedin"></i
                 ></a>
               </li>
@@ -359,22 +361,39 @@
         <div class="sec4__box3">
           <h2>Contact Us</h2>
           <form>
-            <input
+            <!-- <input
               data-aos="fade-left"
               data-aos-delay="500"
               class="sec4__email"
               type="email"
               placeholder="Enter your Email"
-            />
-            <input
+            /> -->
+            <!-- <input
               class="sec4__message"
               data-aos="fade-left"
               data-aos-delay="1000"
               type="text"
               placeholder="enter the feedback or suggestion"
-            />
+            /> -->
             <br />
-            <button type="submit">send</button>
+            <br />
+            <button
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              type="submit"
+              onclick="resume()"
+            >
+              Resume
+            </button>
+
+            <button
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              type="submit"
+              onclick="whatsApp()"
+            >
+              Say Hello
+            </button>
           </form>
         </div>
       </div>
@@ -444,6 +463,16 @@
           top: 0,
           behavior: "smooth",
         });
+      }
+
+      function whatsApp() {
+        window.open("https://wa.me/+919942814506");
+      }
+
+      function resume() {
+        window.open(
+          "https://drive.google.com/file/d/1Q3LiXs4ciWCjfhe9G_Xa56E59bJoLRWp/view?usp=share_link"
+        );
       }
     </script>
   </body>
